@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
-
+    <title>Phonie</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h2>make some magic here!!</h2>
-
+     <!--Form field-->
+     <form onsubmit="return startApp()">
+         <h3>Welcome!</h3>
+         <label for="names">Firstname:</label><br>
+        <input type="text" id="names" value=""><br><br>
+        <label for="names">Lastname:</label>
+        <input type="text" id="names" value=""> <br><br>
+        <label for="names">Password:</label>
+        <input type="text" > <br><br>
+        <label for="names">Phone-Number:</label>
+        <input type="text"  id="phone-number" value="" > <br>
+        <span id="msg-img"></span>
+       <span id="messages"></span> <br>
+        <button id="button">SUBMIT</button>
+     </form>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
